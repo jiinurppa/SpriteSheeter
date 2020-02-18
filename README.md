@@ -15,7 +15,7 @@ Configurable sprite sheet generator
 
 ![alt text](https://github.com/jiinurppa/SpriteSheeter/raw/master/SpriteSheet.png "Grid Sample Image")
 
-## Usage:
+## Usage
 Load default configuration file `config.ini`
 ```bash
 SpriteSheeter.py
