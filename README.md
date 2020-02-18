@@ -2,11 +2,17 @@
 Configurable sprite sheet generator
 
 ## Sample Images
+
 `ImagesPerRow=3`
+
 ![alt text](https://github.com/jiinurppa/SpriteSheeter/raw/master/SpriteSheetHorizontal.png "Horizontal Sample Image")
+
 `ImagesPerRow=1`
-![alt text](https://github.com/jiinurppa/SpriteSheeter/raw/master/SpriteSheetVertical.png "vertical Sample Image")
+
+![alt text](https://github.com/jiinurppa/SpriteSheeter/raw/master/SpriteSheetVertical.png "Vertical Sample Image")
+
 `ImagesPerRow=2`
+
 ![alt text](https://github.com/jiinurppa/SpriteSheeter/raw/master/SpriteSheet.png "Grid Sample Image")
 
 ## Usage:
