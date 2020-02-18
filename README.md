@@ -26,7 +26,7 @@ SpriteSheeter.py file.ini
 ```
 
 ## Configuration Parameters
-See `sample.ini` for a generic example.
+See `sample.ini` for a generic example
 | Parameter       | Example         | Description                                     |
 | --------------- | --------------- | ----------------------------------------------- |
 | OutputFormat    | PNG             | Format for writing sprite sheet                 |
