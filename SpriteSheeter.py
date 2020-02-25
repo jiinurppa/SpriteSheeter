@@ -6,7 +6,7 @@ usage = 'usage: ' + sys.argv[0] + ' [file.ini]\n\tno argument defaults to \'conf
 
 # Check Arguments
 config_filename = 'config.ini'
-arguments = len(sys.argv);
+arguments = len(sys.argv)
 if arguments == 2:
     config_filename = sys.argv[1]
 elif arguments > 2:
