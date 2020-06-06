@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-import os, sys, math, configparser
-from PIL import Image, ImageDraw, ImageColor
+import configparser
+import math
+import os
+import sys
+from PIL import Image, ImageColor
 
 usage = 'usage: ' + sys.argv[0] + ' [file.ini]\n\tno argument defaults to \'config.ini\''
 
@@ -14,7 +17,7 @@ elif arguments > 2:
     exit()
 
 # Check Config File
-if os.path.isfile(config_filename) == False:
+if not os.path.isfile(config_filename):
     print('Can\'t open config file \'' + config_filename + '\'')
     print(usage)
     exit()
@@ -34,7 +37,7 @@ draw_order = setup['DrawOrder'].split(os.linesep)
 
 # Check Image Files
 for image_file in draw_order:
-    if os.path.isfile(image_file) == False:
+    if not os.path.isfile(image_file):
         print('Missing image \'' + image_file + '\'')
         print('Fix config file \'' + config_filename + '\'')
         exit()
